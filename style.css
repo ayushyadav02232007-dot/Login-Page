@@ -19,7 +19,7 @@ body{
     border-radius: 10px;
     background-color: rgba(60, 40, 40, 0.253);
     padding: 2vw;
-    height: 35vh;
+    height: 38vh;
     width: 25vw;
     box-shadow: 0.5em 0.5em 1em 0em black;
     overflow: hidden;
@@ -68,6 +68,7 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .login-box button:hover{
@@ -78,3 +79,15 @@ button{
 button:active{
     transform: scale3d(0.95, 0.99, 1);
 }
+
+@media only screen and (max-width:600px){
+    .login-box{
+        width: 60vw;
+        height: 40vh;
+    }
+    button{
+        margin: 2em:
+    }
+}
+
+
